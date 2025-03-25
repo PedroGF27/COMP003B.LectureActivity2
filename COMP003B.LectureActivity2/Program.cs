@@ -30,7 +30,7 @@ namespace COMP003B.LectureActivity2
 
             app.UseWelcomePage("/Welcome!");
 
-			app.UseMiddleware<RequestLoggingMiddleware>()
+            app.UseMiddleware<RequestLoggingMiddleware>();
 
 
 			app.UseRouting();
