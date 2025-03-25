@@ -1,3 +1,7 @@
+// Author: Pedro Garcia
+// Class: COMP003B
+// Faculty: Johnathan Cruz
+// Purpose: Lecture Activity 2
 using COMP003B.LectureActivity2.Middleware;
 
 namespace COMP003B.LectureActivity2
@@ -30,7 +34,7 @@ namespace COMP003B.LectureActivity2
 
             app.UseMiddleware<RequestLoggingMiddleware>();
 
-			app.UseWelcomePage("/Welcome!");
+			app.UseWelcomePage("/Welcome");
 
 			app.UseRouting();
 
