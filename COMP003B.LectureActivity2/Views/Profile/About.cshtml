@@ -1,0 +1,15 @@
+﻿namespace COMP003B.LectureActivity2.Views.Profile
+{
+    public class About
+    {
+        @{
+            ViewData["Title"] = "About";
+            Layout = "~/Views/Shared/_Layout.cshtml";
+        }
+
+        <h2>@ViewData["Title"]</h2>
+        <p>This page tnroduces me to the worl of ASP.Net Core.</p>
+        @await Html.PartialAsync("_Sidebar")
+    }
+
+}
